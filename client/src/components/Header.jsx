@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from "../images/SwingLynnPP.jpg"
+import { AiOutlineClose } from "react-icons/ai";
+import { AiOutlineBars } from "react-icons/ai";
 
 const Header = () => {
   return (
@@ -16,7 +18,7 @@ const Header = () => {
                 <li><Link to="/logout"> Logout </Link></li>
             </ul>
             <button className="nav__toggle-btn">
-                
+                <AiOutlineClose/>
             </button>
         </div>
 

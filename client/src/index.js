@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './components/Layout';
 import ErrorPage from './pages/ErrorPage';
@@ -17,6 +16,10 @@ import AuthorPost from './pages/AuthorPost';
 import Dashboard from './pages/Dashboard';
 import Logout from './pages/Logout';
 
+
+import './index.css';
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,7 +34,7 @@ const router = createBrowserRouter([
         { path: "authors", element: <Authors/> },
         { path: "create", element: <CreatePost/> },
         { path: "posts/:id/edit", element: <EditPost/> },
-        { path: "posts/categories/ :category", element: <CategoryPost/> },
+        { path: "posts/categories/:category", element: <CategoryPost/> },
         { path: "posts/users/:id", element: <AuthorPost/> },
         { path: "myposts/:id", element: <Dashboard/> },
         { path: "logout", element: <Logout/> },
