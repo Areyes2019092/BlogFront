@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PostDetails = () => {
+const Footer = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const PostDetails = () => {
   )
 }
 
-export default PostDetails
+export default Footer

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AuthorPosts = () => {
+const CategoryPost = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const AuthorPosts = () => {
   )
 }
 
-export default AuthorPosts
+export default CategoryPost
