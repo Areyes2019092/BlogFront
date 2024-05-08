@@ -1,3 +1,40 @@
+/*Home*/
+
+/*Post*/
+
+.post {
+      border-radius: var(--radius-4);  
+      padding: 1rem;
+      transition: var(--transition);
+      padding-bottom: 2rem;   
+      background: var(--color-white);
+}
+
+
+.posts__container{
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    gap: 4rem;
+    
+}
+
+
+
+/*Error*/
+
+.center{
+    text-align: center;
+    padding-top: 5rem;
+    margin-inline: center;
+    display: block;
+    width: 100%;
+}
+
+
+.error-page h2 {
+    margin-top: 3rem;
+}
+
 
 /*Under*/
 
