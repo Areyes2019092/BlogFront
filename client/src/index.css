@@ -1,4 +1,43 @@
 
+/*Under*/
+
+.footer__copyright{
+    color: var(--color-white);
+    text-align: center;
+    padding: 1rem;
+    border-top: 2px solid var(--color-gray-700);
+    font-weight: 300;
+}
+
+.footer__categories a{
+    background: var(--color-gray-700);
+    padding: 0.6rem 1.4rem;
+    transition: var(--transition);
+    border-radius: var(--radius-2);
+    color: var(--color-white);
+}
+
+.footer__categories a:hover{
+    background: var(--color-white);
+    color: var(--color-gray-900);
+} 
+
+
+footer{
+    background: var(--color-gray-900);
+    margin-top: 6rem;
+    padding-top: 6rem;
+}
+
+.footer__categories{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+
 
 
 a{
