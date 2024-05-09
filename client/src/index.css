@@ -118,7 +118,8 @@
 /*Register*/
 
 .login, .register, .create-post {
-    
+    height: calc(100vh - 12rem);
+    margin-inline: auto;
     width: var(--form-width);
 }
 
