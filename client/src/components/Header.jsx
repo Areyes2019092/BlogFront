@@ -12,7 +12,7 @@ const Header = () => {
                 <img src={Logo} alt="Navbar Logo"/>
             </Link>
             <ul className="nav__menu">
-                <li><Link to="/profile"> Angel Reyes </Link></li>
+                <li><Link to="/profile/angel"> Angel Reyes </Link></li>
                 <li><Link to="/create"> Create Post </Link></li>
                 <li><Link to="/authors"> Authors </Link></li>
                 <li><Link to="/logout"> Logout </Link></li>
@@ -28,3 +28,4 @@ const Header = () => {
 }
 
 export default Header
+ 
