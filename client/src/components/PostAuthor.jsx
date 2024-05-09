@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const PostAuthor = () => {
   return (
     <div>
-      <Link to={`/posts/users/radiohead`}>
+      <Link to={`/posts/users/radiohead`} className='post__author'>
         <div className="post__author-avatar">
             <img src={Avatar} alt="" />
         </div>

@@ -1,14 +1,85 @@
 /*Home*/
 
+/*Post Detail*/
+
+.post-detail p{
+    margin-bottom:  0.7rem;
+}
+
+.post-detail__header{
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.post-detail__thumbnail{
+    margin: 1rem 0;
+    overflow: hidden;
+    max-height: 30rem;
+    height: fit-content;
+}
+
+.post-detail{
+    width: var(--form-width);
+    padding: 2rem 0;
+    margin-inline: auto;
+    background: var(--color-white);
+}
+
+.post-detail__buttoms{
+    align-items: center;
+    gap: 1rem;
+    display: flex;
+}
+
+
+
 /*Post*/
+
+.post__content{
+    margin-top: 1.5rem;
+}
+
+.post:hover{
+    box-shadow: 0 1.5rem 2rem rgb(0, 0, 0, 0.1);
+}
+
+.post__thumbnail{
+    border-radius: var(--radius-3);
+    height: 16rem;
+    overflow: hidden;
+}
+
 
 .post {
       border-radius: var(--radius-4);  
       padding: 1rem;
       transition: var(--transition);
       padding-bottom: 2rem;   
+      cursor: default;
       background: var(--color-white);
 }
+
+.post__author{
+    gap: 1rem;
+    align-items: flex-start;
+    display: flex;
+}
+
+
+.post__content h3{
+    margin: 1rem 0 0.6rem ;
+}
+
+
+.post__author-avatar{
+    border-radius: var(--radius-2);
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    width: 2.5rem;
+
+}
+
 
 
 .posts__container{
@@ -17,6 +88,14 @@
     gap: 4rem;
     
 }
+
+.post__footer {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 2rem;
+    align-items: flex-end;
+}
+
 
 
 
@@ -33,6 +112,38 @@
 
 .error-page h2 {
     margin-top: 3rem;
+}
+
+
+/*Register*/
+
+.login, .register, .create-post {
+    
+    width: var(--form-width);
+}
+
+select, textarea, input{
+    border-radius: var(--radius-1);
+    resize: none;
+    padding: 0.6rem 1rem;
+    width: 100%;
+}
+
+
+.form{
+    display: flex;
+    gap: 0.8rem;
+    flex-direction: column;
+}
+
+.form__error-message{
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.6rem 1rem;
+    background: var(--color-red);
+    font-size: 0.8rem;
+    border-radius: var(--radius-1);
+    color: var(--color-white);
 }
 
 
@@ -233,7 +344,7 @@ body {
 }
 
 .nav__logo {
-    width: 10rem;
+    width: 5rem;
     display: block;
 }
 
