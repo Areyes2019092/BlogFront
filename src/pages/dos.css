@@ -1,0 +1,92 @@
+.text-description {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior */
+  }
+
+.Get-project {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.Get-project Button {
+    /* Estilos para el botón dentro del enlace */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3c76f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Get-project Button:hover {
+    background-color: #45a07d;
+}
+
+/* Estilos para el contenedor principal */
+.bg {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el contenedor interno */
+  .sss {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el título */
+  .Contenedor-categorias {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Estilos para la lista de categorías */
+  .lista-categorias {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lista-categorias li {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los enlaces */
+  .lista-categorias li a {
+    display: block;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .lista-categorias li a:hover {
+    background-color: #028d2a;
+  }
+  
+  /* Estilos específicos para cada categoría */
+  .taller-class {
+    background-color: #28a745;
+  }
+  
+  .tegnologia {
+    background-color: #ffc107;
+  }
+  
+  .Supervisada {
+    background-color: #dc3545;
+  }
+  
