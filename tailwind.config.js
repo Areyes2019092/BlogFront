@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  // Especifica los archivos que Tailwind debe analizar para generar los estilos
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./index.html", // Archivo HTML en la raíz del proyecto
+    "./src/**/*.{js,ts,jsx,tsx}", // Archivos JavaScript, TypeScript y JSX en la carpeta src y sus subcarpetas
   ],
-  theme: { // defaults to these values
+  theme: { 
+    // Define personalizaciones para el tema de Tailwind, como colores, tamaños, etc.
     patterns: {
-      opacities: {
+      opacities: { // Agrega patrones de opacidad personalizados
         100: "1",
         80: ".80",
         60: ".60",
@@ -15,7 +17,7 @@ export default {
         10: ".10",
         5: ".05",
       },
-      sizes: {
+      sizes: { // Define tamaños personalizados
         1: "0.25rem",
         2: "0.5rem",
         4: "1rem",
@@ -29,6 +31,6 @@ export default {
     }
   },
   plugins: [
-    require('tailwindcss-bg-patterns'),
+    require('tailwindcss-bg-patterns'), // Carga el plugin tailwindcss-bg-patterns
   ],
 }

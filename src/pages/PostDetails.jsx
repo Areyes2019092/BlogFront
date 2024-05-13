@@ -37,9 +37,9 @@ export const PostDetails = () => {
                         <div className="sss">
                             <h3 className="Contenedor-categorias">Categorias</h3>
                             <ul className="lista-categorias">
-                                <li><a href="#" className="taller-class">Taller</a></li>
-                                <li><a href="#" className="tegnologia">Tegnologia</a></li>
-                                <li><a href="#" className="Supervisada">Practica Supervisada</a></li>
+                                <li><a href="/taller" className="taller-class">Taller</a></li>
+                                <li><a href="/tegnologia" className="tegnologia">Tegnologia</a></li>
+                                <li><a href="/practicasupervisada" className="Supervisada">Practica Supervisada</a></li>
                             </ul>
                         </div>
                     </div>
