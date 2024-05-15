@@ -1,0 +1,104 @@
+/* Estilos generales para la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Estilos para el enlace del nombre del blog */
+.blog-nombre {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+/* Efecto de escala al pasar el cursor sobre el nombre del blog */
+.blog-nombre:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para las opciones de navegación */
+.opciones {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para los elementos de la lista de opciones */
+.opciones li {
+    margin-right: 1rem;
+}
+
+/* Estilos para los enlaces de las opciones */
+.opciones li a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 16px; /* Ajustar según sea necesario */
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+    border: 2px solid transparent;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+
+/* Cambiar color de texto al pasar el cursor */
+.opciones li a:hover {
+    border-color: #fcbf1e;
+    color: #fcbf1e;
+}
+
+/* Estilos específicos para los enlaces de las opciones */
+.home-go {
+    font-weight: bold;
+}
+
+.post-go {
+    font-style: italic;
+}
+
+.create-post-whynot {
+    text-transform: uppercase;
+}
+
+/* Efecto de subrayado al pasar el cursor */
+.opciones li a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fcbf1e;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+
+.opciones li a:hover::before {
+    transform: scaleX(1);
+}
+
+/* Efecto de sombra al pasar el cursor */
+.opciones li a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, rgba(252,191,30,0.7), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.opciones li a:hover::after {
+    opacity: 1;
+}
+

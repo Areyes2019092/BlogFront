@@ -1,0 +1,188 @@
+/* card.css */
+
+/* Estilos para el contenedor principal del componente Card */
+#randomId1 {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* Alinea las publicaciones una al lado de la otra */
+    margin: 10px; /* Agrega un poco de espacio entre las publicaciones */
+}
+  
+  .comments-container {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* Estilos para la sección de la imagen */
+  #randomId2 {
+    margin-bottom: 20px;
+  }
+  
+  #randomId3 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+  }
+  
+  /* Estilos para la sección de contenido */
+  #randomId4 {
+    width: 80%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Espaciado interno */
+  
+    /* Estilo de borde y sombra */
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para el título */
+  #titulo {
+    color: #333; /* Color del texto */
+    font-size: 24px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Espaciado inferior */
+    text-align: center;
+  }
+  
+  /* Estilo para la descripción */
+  #descripcion {
+    color: #666; /* Color del texto */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-align: justify;
+  }
+  
+  /* Estilo para el contenedor del autor */
+  #contenedor-autor {
+    display: flex; /* Mostrar en línea */
+    align-items: center; /* Alinear verticalmente al centro */
+  }
+  
+  /* Estilo para el autor */
+  #autor {
+    flex: 1; /* Ocupar espacio disponible */
+    color: #888; /* Color del texto */
+  }
+  
+  /* Estilo para el enlace "Read more" */
+  #referencia {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Quitar subrayado */
+    font-weight: bold; /* Negrita */
+    transition: color 0.3s; /* Transición suave */
+  }
+  
+  /* Cambio de color al pasar el ratón por encima */
+  #referencia:hover {
+    color: #0056b3;
+  }
+  
+  /* Estilos para el autor y el enlace */
+  #randomId7 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #randomId8 {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #888;
+  }
+  
+  #randomId9 {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  #randomId9:hover {
+    color: #0056b3;
+  }
+  
+  /* Estilos para la sección de comentarios */
+  #randomId10 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow-y: auto; /* Agregar barra de desplazamiento vertical cuando sea necesario */
+    max-height: 200px; /* Altura máxima del contenedor de comentarios, ajusta según sea necesario */
+  }
+  
+  #randomId11 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  #randomId12 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #randomId13 {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  #randomId14 {
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Estilos para el formulario de comentarios */
+  #randomId15 {
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  #randomId16 {
+    width: calc(100% - 22px);
+    max-width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #randomId17 {
+    width: calc(100% - 22px);
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #randomId18,
+  #randomId19 {
+    color: red;
+  }
+  
+  #randomId20 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #randomId20:hover {
+    background-color: #0056b3;
+  }
+  
